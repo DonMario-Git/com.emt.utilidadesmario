@@ -1,19 +1,22 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScrollRectFix : MonoBehaviour
+namespace EMT.Fixes
 {
-    public ScrollRect scroll;
-
-    public bool reiniciarAlDesactivar = true;
-
-    private void Reset()
+    public class ScrollRectFix : MonoBehaviour
     {
-        scroll = GetComponent<ScrollRect>();
-    }
+        public ScrollRect scroll;
 
-    private void OnEnable()
-    {
-        if (reiniciarAlDesactivar) scroll.content.localPosition = new Vector3(0, 0, 0);
+        public bool reiniciarAlDesactivar = true;
+
+        private void Reset()
+        {
+            scroll = GetComponent<ScrollRect>();
+        }
+
+        private void OnEnable()
+        {
+            if (reiniciarAlDesactivar) scroll.content.localPosition = new Vector3(0, 0, 0);
+        }
     }
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace EMT.UtilidadesMario
+namespace EMT.Fixes
 {
     /// <summary>
     /// marca con gizmos el rectángulo de un canvas en la escena
