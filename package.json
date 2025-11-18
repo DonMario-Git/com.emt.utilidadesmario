@@ -1,0 +1,21 @@
+{
+  "name": "com.emt.utilidadesmario",
+  "version": "1.0.0",
+  "displayName": "UtilidadesMario",
+  "description": "Paquete de utilidades completas de EMT",
+  "unity": "6000.2",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "Tool",
+    "Library",
+    "EMT"
+  ],
+  "author": {
+    "name": "Mario",
+    "email": "mariorrd.113@gmail.com",
+    "url": ""
+  }
+}
